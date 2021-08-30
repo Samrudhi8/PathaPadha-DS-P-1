@@ -1,0 +1,5 @@
+a = int(input("Enter a Number: "))
+b = int(input("Enter another Number: "))
+print("Before: a=",a,"b=",b)
+(a,b) = (b,a)
+print("After: a=",a,"b=",b)
