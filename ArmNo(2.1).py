@@ -1,7 +1,7 @@
 num = int(input("Enter a Number: "))
 sum = 0
 var = num
-while num > 0:
+while var > 0:
     r = var%10
     sum += r*r*r
     var //= 10
