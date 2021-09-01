@@ -1,7 +1,7 @@
 sumOdd = 0
 sumEven = 0
 
-for i in range(20,30):
+for i in range(20,31):
     if (i%2 == 0):
         sumEven += i
     else:
